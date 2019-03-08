@@ -1,2 +1,2 @@
-# modern-dating-app
-A dating app which solves the problem of ghosting.
+# The Modern Dating App
+A dating app which will change the world.
