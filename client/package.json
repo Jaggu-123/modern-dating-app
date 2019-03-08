@@ -5,11 +5,15 @@
   "watch": true,
   "dependencies": {
     "express": "^4.16.4",
+    "firebase": "^5.8.6",
     "prop-types": "^15.6.2",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-redux": "^5.1.1",
-    "redux": "^3.7.2"
+    "react-redux-firebase": "^2.1.6",
+    "redux": "^3.7.2",
+    "redux-firestore": "^0.7.1",
+    "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
