@@ -2,9 +2,12 @@
 import { combineReducers } from "redux";
 
 import count from "./counter";
+import userReducer from "./UserReducer";
 // import secondCounter from './exampleReducer';
 
-export default combineReducers({ count });
+export default combineReducers({
+  user: userReducer
+});
 
 // Example for combining multiple reducers:
 // export default combineReducers({ count, secondCounter });

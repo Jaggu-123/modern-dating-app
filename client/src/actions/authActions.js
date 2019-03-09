@@ -11,9 +11,10 @@ export const FaceBookSignIn = () => {
       .signInWithPopup(provider)
       .then(result => {
         //console.log(result);
+        // var value = firebase.auth().
         var token = result.credential.accessToken;
-        var user = result.user;
-        console.log(user);
+        var user = result.user.uid;
+        dispatch({ type: "UserID", payload: user });
       })
       .catch(err => {
         console.log(err);
